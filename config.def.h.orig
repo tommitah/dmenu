@@ -7,6 +7,7 @@ static const unsigned int alpha = 0xf0;
 static const char *fonts[] = {
 	"hermit:size=14"
 };
+static unsigned int border_width = 0;
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
@@ -29,6 +30,3 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
-
-/* Size of the window border */
-static const unsigned int border_width = 5;
